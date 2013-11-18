@@ -1,0 +1,118 @@
+1.0.11:
+
+1. Updates to fix dependency problems un Linux.
+
+
+
+--------------------------------------------
+
+
+1.0.10:
+
+1. Workaround for a gcc bug.
+
+
+
+--------------------------------------------
+
+
+1.0.9:
+
+1. Fix a bug that could result in 64Base images with long sequence lengths 
+causing a crash.
+
+2. Modification to allow easy compilation as a DLL
+
+
+
+--------------------------------------------
+
+
+1.0.8:
+
+1. Fix a bug that could result in 64Base images with a non-standard
+aspect ratio from being converted correctly.
+
+
+
+--------------------------------------------
+
+
+
+1.0.7:
+
+1. Impove performance of the Adaptive interpolation algorithm
+(non-GPL only).
+
+
+
+--------------------------------------------
+
+
+1.0.6:
+
+1. Fix a problem when compiling on Ubuntu 9.10 (Karmic Koala) that
+resulted in undefined symbols as a result of changes to the Ubuntu 
+development environment. This does not impact on either the OS x
+or Windows versions of pcdtojpeg.
+
+
+
+--------------------------------------------
+
+
+1.0.5:
+
+1. More efficient memory management
+
+2. Changes defaults such that a maximum quality conversion is performed
+unless otherwise specified, as some users were unaware that the previous
+defaults favoured file size rather than quality.
+
+
+--------------------------------------------
+
+
+1.0.4:
+
+1. The Windows version now supports multi-threading
+
+--------------------------------------------
+
+1.0.3:
+
+1. More descriptive error messages
+2. Enhanced algorithm for location 64base component files
+3. Fix for a potential buffer overrun condition in the library (note
+this did not manifest in previous versions of pcdtojpeg due to the buffer
+sizes used)
+
+--------------------------------------------
+
+1.0.2:
+
+1. Modifications to the sRGB tone curve to provide better shadow detail
+2. Modifications to the color rendering to improve accuracy
+3. pcdDecode library modified to allow extraction of YCC data in addition 
+to RGB data
+
+--------------------------------------------
+
+
+1.0.1: 
+
+1. Modification to the VC++ project file to resolve a problem where older
+version of Windows did not correctly locate the C++ run-time library,
+leading to errors such as "This application has failed to start because
+the application configuration is incorrect.  Reinstalling the application
+may fix this problem" or similar.
+
+--------------------------------------------
+
+
+1.0.0: 
+
+Initial release
+
+--------------------------------------------
+
